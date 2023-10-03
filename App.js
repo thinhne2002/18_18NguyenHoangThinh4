@@ -1,20 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { StyleSheet, Text, View , Image} from 'react-native';
+import Figma1 from './screen/Figma1';
+import Figma2 from './screen/Figma2';
+import Figma3 from './screen/Figma3';
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    //return <Figma1/>;
+    return <Figma2/>;
+    //return <Figma3/>;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
